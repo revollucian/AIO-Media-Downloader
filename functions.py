@@ -142,6 +142,3 @@ def set_links(sender, data):
             link = get_link(selected_item)
             set_value("URL", link)
             set_value("URL2", link)
-
-def download_spotify_song(sender, data):
-    with window("File downloader"):
