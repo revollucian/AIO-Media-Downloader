@@ -21,10 +21,12 @@ Downloaded ```.mp3``` files can be found in the "audios" directory, ```.mp4's```
 
 ### Youtube MP4/MP3 and playlist download section
 - Each section lets you download both individual files OR playlists.
+
 ![alt text](https://i.imgur.com/C6969Nl.png)
 
 ### Search feature 
 - After pressing the Search button click on the song you want to select, this action will automatically send the URL of the song to the input fields above.
+
 ![alt text](https://i.imgur.com/ZnargMY.png)
 
 ### SoundCloud track and playlist download section 
@@ -32,5 +34,6 @@ Downloaded ```.mp3``` files can be found in the "audios" directory, ```.mp4's```
 
 ### Logs 
 - Shows the progress of most actions taking place inside the program
+
 ![alt text](https://i.imgur.com/rhKyUR5.png)
 
