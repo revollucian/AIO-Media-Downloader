@@ -1,4 +1,4 @@
-# AIO-Media-Downloader
+# AIO-Media-Downloader v0.1.1
 
 YouTube and Soundcloud media downloader that doesn't use API keys.
 
