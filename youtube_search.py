@@ -18,3 +18,11 @@ def get_links(query):
     for video in vs.result()['result']:
         links.append(video['link'])
     return links
+
+def get_link(query):
+    links = []
+    fetcher = StreamURLFetcher()
+    vs = VideosSearch(query)
+    for video in vs.result()['result']:
+        links.append(video['link'])
+    return links[0]

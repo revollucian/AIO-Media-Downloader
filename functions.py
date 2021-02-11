@@ -11,7 +11,7 @@ import shutil # to save it locally
 from sclib import SoundcloudAPI, Track, Playlist
 
 from youtubesearchpython import *
-from youtube_search import get_titles, get_links
+from youtube_search import get_titles, get_links, get_link
 
 
 def download_youtube_mp4_playlist(sender, data):
@@ -131,14 +131,17 @@ def search_for_videos(sender, data):
         list = get_titles(get_value("youtube_search"))
         configure_item("results_listbox", items=list)
 
-
 def set_links(sender, data):
     with window("File downloader"):
         if get_value("youtube_search") == "":
             log_warning(logger="logger_general", message="Search bar is empty")
         else:
+            config = get_item_configuration("results_listbox")
             item = get_value("results_listbox")
-            link = get_links(get_value("youtube_search"))
-            print(link[item])
-            set_value("URL", link[item])
-            set_value("URL2", link[item])
+            selected_item = config['items'][item]
+            link = get_link(selected_item)
+            set_value("URL", link)
+            set_value("URL2", link)
+
+def download_spotify_song(sender, data):
+    with window("File downloader"):
