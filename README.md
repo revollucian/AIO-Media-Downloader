@@ -17,13 +17,13 @@ Downloaded ```.mp3``` files can be found in the "audios" directory, ```.mp4's```
 # Gallery
 
 ### Overview
-![alt text](https://i.imgur.com/O5ynZtc.png)
+![alt text](https://i.imgur.com/L0cGwwi.png)
 
 ### Youtube MP4/MP3 and playlist download section
 ![alt text](https://i.imgur.com/C6969Nl.png)
 
 ### Search feature 
-![alt text](https://i.imgur.com/1EpgzSy.png)
+![alt text](https://i.imgur.com/ZnargMY.png)
 
 ### SoundCloud track and playlist download section 
 ![alt text](https://i.imgur.com/WiyjKot.png)
